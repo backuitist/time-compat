@@ -1,7 +1,6 @@
 cabal-version: 1.12
 name:          time-compat
 version:       1.9.2.2
-x-revision:    1
 synopsis:      Compatibility package for time
 description:
   This packages tries to compat as much of @time@ features as possible.
@@ -24,10 +23,6 @@ bug-reports:   https://github.com/phadej/time-compat/issues
 build-type:    Simple
 tested-with:
   GHC ==8.8.1 || ==8.6.5 || ==8.4.4 || ==8.2.2 || ==8.0.2 || ==7.10.3 || ==7.8.4 || ==7.6.3 || ==7.4.2 || ==7.2.2 || ==7.0.4
-
-source-repository head
-  type:     git
-  location: https://github.com/phadej/time-compat.git
 
 flag old-locale
   description: If true, use old-locale, otherwise use time 1.5 or newer.
